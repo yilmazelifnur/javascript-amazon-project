@@ -8,7 +8,7 @@ import { removeFromCart } from '../data/cart.js';
 let cartSummaryHTML = '';
 
 
-cart.forEach((cartItem)=>{
+cart.forEach((cartItem) => {
   const productId = cartItem.productId;
 
   let matchingProduct;
